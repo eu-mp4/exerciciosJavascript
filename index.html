@@ -20,11 +20,18 @@
                       <input type="text" placeholder="Search.." name="search">
                       <button type="submit">Submit</button>
                     </form>
+                </div>
             </div>
         </nav>
+        <div id="area" onclick="clicar()">
+            Interaja...
+        </div>
     </header>
     <script>
-
+        function clicar() {
+            var a = window.document.getElementById('area')
+            a.innerHTML = 'Clicou'
+        }
     </script>
 </body>
 </html>
