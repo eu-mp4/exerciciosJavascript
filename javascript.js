@@ -1,10 +1,13 @@
-function myConcat(separador) {
-    var result = ""; // inicializa a lista
-    // itera por meio de argumentos
-    for (var i = 1; i < arguments.length; i++) {
-       result += arguments[i] + separador;
-    }
-    console.log(result);
- }
-
- myConcat(". ", "sage", "basil", "oregano", "pepper", "parsley");
+var heroes = [{"name": "Superman",
+   "age": 32,
+   "friends": "Batman",
+   "nickname": "Super",
+},
+{
+   "name": "Batman",
+   "age": 50,
+   "friends": "Wonder woman",
+   "nickname": "Batsy",
+}
+]
+console.log('His name is:', heroes[0]['name'], 'and your girlfriend is', heroes[1]['friends'])
