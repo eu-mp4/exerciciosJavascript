@@ -1,5 +1,5 @@
 /*function teste() {
-    person = {name:"John", age:31, city:"New York"};
+    const person = {name:"John", age:31, city:"New York"};
     console.log(person['name']);
 }
 
