@@ -295,7 +295,7 @@ for (let i = 0; i < vetor.length; i++) {
 }*/
 
 //31
-function negativos(vetor) {
+/*function negativos(vetor) {
     let negatives = 0 //contador
     for (let i = 0; i < vetor.length; i++) { //começo e fim da contagem e incremento
         if (vetor[i] < 0) { //para cada item do vetor que seja menor que zero
@@ -305,4 +305,18 @@ function negativos(vetor) {
 }
 
 vetor = [1, 2, -3, -4]
-console.log(negativos(vetor))
+console.log(negativos(vetor))*/
+
+//desafio
+/*const carrinho = [
+    '{ "nome": "borracha", "preco": 3.45 }',
+    '{ "nome": "caderno", "preco": 13.90 }',
+    '{ "nome": "kit de lapis", "preco": 41.22 }',
+    '{ "nome": "caneta", "preco": 7.50 }'
+]
+
+const paraObjeto = json => JSON.parse(json)
+const apenasPreco = produto => produto.preco
+
+const resultado = carrinho.map(paraObjeto).map(apenasPreco)
+console.log(resultado[3])*/
