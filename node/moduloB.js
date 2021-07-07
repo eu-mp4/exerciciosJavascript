@@ -1,3 +1,6 @@
 module.exports = {
-    blz: 'Tudo bem?'
+    blz: 'Tudo bem?',
+    funfun() {
+        return 'funny'
+    }
 }

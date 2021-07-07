@@ -4,4 +4,7 @@
 const moduloA = require('./moduloA')
 const moduloB = require('./moduloB')
 
-console.log(moduloA.bomDias)
+console.log(moduloA.bomDias) //retorna 'bom dia'
+console.log(moduloB.blz) //retorna 'tudo bem'
+console.log(moduloB.funfun()) //retorna valor da função
+console.log(moduloB)
